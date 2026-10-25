@@ -5,23 +5,23 @@ class Rascal < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/samuelwbaird/rascal/releases/download/v0.1.0/rascal-0.1.0-darwin-arm64.tar.gz"
-      sha256 "54ebd9853188ad9cb799412b2ffe670341c8d81a72f67faa4d156f3f0aefe3be"
+      url "https://github.com/samuelwbaird/rascal/releases/download/v0.2.0/rascal-0.2.0-darwin-arm64.tar.gz"
+      sha256 "a49aa22133d7d4f6076e3c73702cc6bb0790d97649be6943a4725da1b57b624d"
     end
     on_intel do
-      url "https://github.com/samuelwbaird/rascal/releases/download/v0.1.0/rascal-0.1.0-darwin-x86_64.tar.gz"
-      sha256 "7dc4562992c90bd5a99e64a3201be986daf712cef1677368aee1635c2de89b24"
+      url "https://github.com/samuelwbaird/rascal/releases/download/v0.2.0/rascal-0.2.0-darwin-x86_64.tar.gz"
+      sha256 "a8aba87c7d27e81dcc5dc45377c6b2bcd70af5cf84e90668250a716f567aed49"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/samuelwbaird/rascal/releases/download/v0.1.0/rascal-0.1.0-linux-aarch64-static.tar.gz"
-      sha256 "bf3798a284a0f66e9bc6e982a04512cc3341c9125cbfdf3a03b4bfd6a17a2bb1"
+      url "https://github.com/samuelwbaird/rascal/releases/download/v0.2.0/rascal-0.2.0-linux-aarch64-static.tar.gz"
+      sha256 "4716d7b63ed2d97076333343359858370bf019120d58e9e49af03a597890ef49"
     end
     on_intel do
-      url "https://github.com/samuelwbaird/rascal/releases/download/v0.1.0/rascal-0.1.0-linux-x86_64-static.tar.gz"
-      sha256 "957d79a890332f3bfa31c9d98ea545ae3f51c1c683aa77872ae95643e1593644"
+      url "https://github.com/samuelwbaird/rascal/releases/download/v0.2.0/rascal-0.2.0-linux-x86_64-static.tar.gz"
+      sha256 "1ec2047cd1901b072539549d9dcf70c144257d99e14134c001591d3f1db29f23"
     end
   end
 
